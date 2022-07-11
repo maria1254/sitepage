@@ -1,0 +1,93 @@
+body{
+    padding-top: 50px;
+}
+
+
+h1{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: nomal;
+    letter-spacing: 1px;
+    line-height: 1.0;
+}
+
+h1 span{
+    font-size:20px;
+}
+
+
+.globalNabi {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.globalNabi li{
+    display: inline-block;
+    margin-right: 300px;
+    font-family: 'Oswald', sans-serif;
+    font: size 16px;
+}
+
+.globalNabi li:last-child{
+    margin-right: 0;
+}
+
+.mainimage{
+  width: 1000px;
+  margin-right: auto;
+  margin-right: auto; 
+  margin-bottom: 50px;
+
+
+}
+
+.mainimage img{
+
+    width:100%;
+    height:auto;
+}
+
+.aboutsection {
+    width:1000px;
+    margin-right: auto;
+    margin-right: auto;
+
+
+}
+.aboutsection h2{
+    text-align: center;
+    font-size:11px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.aboutsection h2 span{
+    font-size:35px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid #000000;
+}
+
+
+.aboutsection ul{
+    overflow: hidden;
+   
+}
+
+
+.aboutsection li{
+    float: left;
+    list-style: none;
+    width:30%;
+
+}
+
+.aboutsection li img{
+    
+    width:100%;
+    height:auto;
+
+    
+
+}
