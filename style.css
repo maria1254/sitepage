@@ -1,5 +1,11 @@
+@media screen and (max-width:767px){
+
+    
+
+}
 body{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -7,13 +13,13 @@ h1{
     text-align: center;
     font-size:40px;
     font-family: 'Oswald', sans-serif;
-    font-weight: nomal;
+    font-weight: normal;
     letter-spacing: 1px;
-    line-height: 1.0;
+    line-height: 1.3;
 }
 
 h1 span{
-    font-size:20px;
+    font-size:15px;
 }
 
 
@@ -25,9 +31,10 @@ h1 span{
 
 .globalNabi li{
     display: inline-block;
-    margin-right: 300px;
+    margin-right: 100px;
     font-family: 'Oswald', sans-serif;
-    font: size 16px;
+    font-size:  16px;
+    letter-spacing: 1px;
 }
 
 .globalNabi li:last-child{
@@ -37,9 +44,8 @@ h1 span{
 .mainimage{
   width: 1000px;
   margin-right: auto;
-  margin-right: auto; 
+  margin-left: auto; 
   margin-bottom: 50px;
-
 
 }
 
@@ -49,45 +55,34 @@ h1 span{
     height:auto;
 }
 
-.aboutsection {
-    width:1000px;
-    margin-right: auto;
-    margin-right: auto;
-
-
-}
-.aboutsection h2{
+h2{
     text-align: center;
     font-size:11px;
     margin-bottom: 40px;
     line-height: 1.2;
 }
 
-.aboutsection h2 span{
-    font-size:35px;
+h2 span{
+    font-size:40px;
     font-family: 'Oswald', sans-serif;
     border-bottom: 2px solid #000000;
 }
 
 
-.aboutsection ul{
-    overflow: hidden;
-   
-}
 
-
-.aboutsection li{
-    float: left;
-    list-style: none;
-    width:30%;
-
-}
-
-.aboutsection li img{
+.about{
+	display: flex;
+	flex-wrap:wrap;
     
-    width:100%;
-    height:auto;
-
-    
-
+}
+.about ul{
+	width: calc(100%/3);/*←画像を横に4つ並べる場合*/
+	
+	box-sizing:border-box;
+    list-style:none;
+}
+.about li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+	object-fit: cover; 
 }
