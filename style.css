@@ -4,8 +4,6 @@ body{
     padding-bottom: 50px;
     padding: 0;
     margin: 0;
-
-   
 }
 
 
@@ -26,7 +24,8 @@ h1 span{
 .globalNabi {
     text-align: center;
     margin-bottom: 50px;
-    }
+
+}
 
 
 .globalNabi li{
@@ -35,12 +34,17 @@ h1 span{
     font-family: 'Oswald', sans-serif;
     font-size:  16px;
     letter-spacing: 1px;
-
-    
+  
 }
 
 .globalNabi li:last-child{
     margin-right: 0;
+}
+
+.globalNabi a{
+
+color:dimgrey;
+
 }
 
 .mainimage{
@@ -60,18 +64,21 @@ h1 span{
 h2{
     text-align: center;
     font-size:15px;
-    margin-bottom: 40px;
-    line-height: 1.2;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    letter-spacing: 5px;
     
 
 }
 
 h2 span{
-    font-size:60px;
-    font-family: 'Oswald', sans-serif;
-    border-bottom:5px solid #000000;
-    
+    font-weight: lighter;
+    margin-top: 50px;
+    font-size:50px;
+    letter-spacing: 10px;
+   
 }
+
 
 
 
@@ -79,13 +86,13 @@ h2 span{
 	display:flex;
 	flex-wrap:wrap;
     
+    
 }
 
 .about h3{
 
     font-size:25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 .about p{
     font-size:15px;
